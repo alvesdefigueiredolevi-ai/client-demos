@@ -1,0 +1,274 @@
+import React, { useState, useEffect } from 'react';
+import { X, Calendar, Clock, User, Scissors, Check, MessageCircle } from 'lucide-react';
+import { SERVICES, BARBERS, AVAILABLE_TIME_SLOTS, COMPANY_INFO } from '../data/barberData';
+import { BookingFormState } from '../types';
+
+interface BookingModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  initialServiceId?: string;
+  initialBarberId?: string;
+}
+
+export const BookingModal: React.FC<BookingModalProps> = ({
+  isOpen,
+  onClose,
+  initialServiceId,
+  initialBarberId,
+}) => {
+  const [formData, setFormData] = useState<BookingFormState>({
+    serviceId: initialServiceId || SERVICES[0].id,
+    barberId: initialBarberId || BARBERS[0].id,
+    date: new Date().toISOString().split('T')[0],
+    timeSlot: AVAILABLE_TIME_SLOTS[2] || '10:30',
+    clientName: '',
+    clientPhone: '',
+    clientEmail: '',
+    notes: '',
+  });
+
+  const [bookingConfirmed, setBookingConfirmed] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    if (initialServiceId) {
+      setFormData((prev) => ({ ...prev, serviceId: initialServiceId }));
+    }
+  }, [initialServiceId]);
+
+  useEffect(() => {
+    if (initialBarberId) {
+      setFormData((prev) => ({ ...prev, barberId: initialBarberId }));
+    }
+  }, [initialBarberId]);
+
+  if (!isOpen) return null;
+
+  const selectedService = SERVICES.find((s) => s.id === formData.serviceId) || SERVICES[0];
+  const selectedBarber = BARBERS.find((b) => b.id === formData.barberId) || BARBERS[0];
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formData.clientName.trim() || !formData.clientPhone.trim()) return;
+
+    setIsSubmitting(true);
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setBookingConfirmed(true);
+    }, 600);
+  };
+
+  const handleClose = () => {
+    setBookingConfirmed(false);
+    onClose();
+  };
+
+  const generateWhatsAppMessage = () => {
+    const svc = SERVICES.find((s) => s.id === formData.serviceId);
+    const brb = BARBERS.find((b) => b.id === formData.barberId);
+    const dateFormatted = new Date(formData.date + 'T00:00:00').toLocaleDateString('pt-BR');
+    
+    const message = `*SOLICITAÇÃO DE AGENDAMENTO - HERITAGE BARBER CLUB*\n\n` +
+      `👤 *Cliente:* ${formData.clientName}\n` +
+      `📱 *Telefone:* ${formData.clientPhone}\n` +
+      `✂️ *Serviço:* ${svc?.name} (R$ ${svc?.price})\n` +
+      `💈 *Barbeiro:* ${brb?.name}\n` +
+      `📅 *Data:* ${dateFormatted}\n` +
+      `⏰ *Horário:* ${formData.timeSlot}\n` +
+      (formData.notes ? `📝 *Obs:* ${formData.notes}\n\n` : '\n') +
+      `_Gostaria de confirmar a disponibilidade desse horário por favor._`;
+
+    return `https://wa.me/${COMPANY_INFO.whatsappNumberDigits}?text=${encodeURIComponent(message)}`;
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm overflow-y-auto animate-in fade-in duration-200">
+      <div className="relative w-full max-w-2xl bg-[#FFFFFF] border border-[#E4E0DC] rounded-sm shadow-2xl overflow-hidden my-8">
+        
+        {/* Top Header - Black with Wine Red accent */}
+        <div className="bg-[#101010] p-5 sm:p-6 text-white flex items-center justify-between border-b border-neutral-800">
+          <div>
+            <span className="text-[11px] font-bold text-[#991B2E] uppercase tracking-widest block">
+              Heritage Barber Club
+            </span>
+            <h3 className="font-display text-xl sm:text-2xl font-bold">
+              {bookingConfirmed ? 'Agendamento Confirmado' : 'Agendar Seu Atendimento'}
+            </h3>
+          </div>
+          <button
+            onClick={handleClose}
+            className="p-1.5 rounded-sm text-neutral-400 hover:text-white hover:bg-neutral-800 transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        {/* Modal Content */}
+        <div className="p-6 sm:p-8">
+          {bookingConfirmed ? (
+            <div className="text-center space-y-6">
+              <div className="w-14 h-14 bg-[#991B2E] text-white rounded-full flex items-center justify-center mx-auto shadow-md">
+                <Check className="w-7 h-7 stroke-[2.5]" />
+              </div>
+
+              <div>
+                <h4 className="font-display text-2xl font-bold text-[#101010]">
+                  Pré-reserva Concluída!
+                </h4>
+                <p className="text-sm text-[#626262] mt-1">
+                  Seu horário foi agendado para <strong className="text-[#101010]">{new Date(formData.date + 'T00:00:00').toLocaleDateString('pt-BR')} às {formData.timeSlot}</strong>.
+                </p>
+              </div>
+
+              <div className="bg-[#F7F5F2] border border-[#E4E0DC] p-4 rounded-sm text-left text-xs sm:text-sm space-y-2">
+                <div className="flex justify-between"><span className="text-[#626262]">Serviço:</span><strong>{selectedService.name}</strong></div>
+                <div className="flex justify-between"><span className="text-[#626262]">Barbeiro:</span><strong>{selectedBarber.name}</strong></div>
+                <div className="flex justify-between"><span className="text-[#626262]">Valor:</span><strong className="text-[#991B2E] text-base font-display">R$ {selectedService.price}</strong></div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                <a
+                  href={generateWhatsAppMessage()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] text-white py-3 rounded-sm text-sm font-bold shadow-md hover:bg-[#20ba5a] transition-colors"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  <span>Confirmar no WhatsApp Oficial</span>
+                </a>
+                <button
+                  onClick={handleClose}
+                  className="w-full bg-[#101010] text-white py-3 rounded-sm text-sm font-semibold hover:bg-[#1B1B1B]"
+                >
+                  Fechar Janela
+                </button>
+              </div>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Service & Barber Selection */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-[#101010] uppercase tracking-wider mb-1.5">
+                    Serviço Desejado
+                  </label>
+                  <select
+                    value={formData.serviceId}
+                    onChange={(e) => setFormData({ ...formData, serviceId: e.target.value })}
+                    className="w-full bg-[#F7F5F2] border border-[#E4E0DC] focus:border-[#991B2E] focus:outline-none p-2.5 rounded-sm text-xs sm:text-sm text-[#101010] font-medium"
+                  >
+                    {SERVICES.map((s) => (
+                      <option key={s.id} value={s.id}>
+                        {s.name} - R$ {s.price} ({s.durationMinutes} min)
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-[#101010] uppercase tracking-wider mb-1.5">
+                    Mestre Barbeiro
+                  </label>
+                  <select
+                    value={formData.barberId}
+                    onChange={(e) => setFormData({ ...formData, barberId: e.target.value })}
+                    className="w-full bg-[#F7F5F2] border border-[#E4E0DC] focus:border-[#991B2E] focus:outline-none p-2.5 rounded-sm text-xs sm:text-sm text-[#101010] font-medium"
+                  >
+                    {BARBERS.map((b) => (
+                      <option key={b.id} value={b.id}>
+                        {b.name} ({b.role})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
+              {/* Date & Time */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-[#101010] uppercase tracking-wider mb-1.5">
+                    Data
+                  </label>
+                  <input
+                    type="date"
+                    min={new Date().toISOString().split('T')[0]}
+                    value={formData.date}
+                    onChange={(e) => setFormData({ ...formData, date: e.target.value })}
+                    required
+                    className="w-full bg-[#F7F5F2] border border-[#E4E0DC] focus:border-[#991B2E] focus:outline-none p-2.5 rounded-sm text-xs sm:text-sm text-[#101010]"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-[#101010] uppercase tracking-wider mb-1.5">
+                    Horário
+                  </label>
+                  <select
+                    value={formData.timeSlot}
+                    onChange={(e) => setFormData({ ...formData, timeSlot: e.target.value })}
+                    className="w-full bg-[#F7F5F2] border border-[#E4E0DC] focus:border-[#991B2E] focus:outline-none p-2.5 rounded-sm text-xs sm:text-sm text-[#101010]"
+                  >
+                    {AVAILABLE_TIME_SLOTS.map((t) => (
+                      <option key={t} value={t}>{t}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
+              {/* Client Info */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-[#E4E0DC]">
+                <div>
+                  <label className="block text-xs font-semibold text-[#626262] mb-1">
+                    Seu Nome Completo *
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Nome completo"
+                    value={formData.clientName}
+                    onChange={(e) => setFormData({ ...formData, clientName: e.target.value })}
+                    className="w-full bg-[#F7F5F2] border border-[#E4E0DC] focus:border-[#991B2E] focus:outline-none p-2.5 rounded-sm text-xs sm:text-sm text-[#101010]"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-semibold text-[#626262] mb-1">
+                    WhatsApp / Telefone *
+                  </label>
+                  <input
+                    type="tel"
+                    required
+                    placeholder="(11) 99999-9999"
+                    value={formData.clientPhone}
+                    onChange={(e) => setFormData({ ...formData, clientPhone: e.target.value })}
+                    className="w-full bg-[#F7F5F2] border border-[#E4E0DC] focus:border-[#991B2E] focus:outline-none p-2.5 rounded-sm text-xs sm:text-sm text-[#101010]"
+                  />
+                </div>
+              </div>
+
+              {/* Submit CTA */}
+              <div className="pt-4 border-t border-[#E4E0DC] flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] text-[#626262] block font-bold uppercase tracking-wider">Total do Serviço:</span>
+                  <span className="text-xl font-black text-[#991B2E] font-display">
+                    R$ {selectedService.price}
+                  </span>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="inline-flex items-center gap-2 bg-[#991B2E] hover:bg-[#C3263D] text-white px-7 py-3 rounded-sm text-xs font-bold uppercase tracking-widest transition-all shadow-md active:scale-95 disabled:opacity-75"
+                >
+                  <Calendar className="w-3.5 h-3.5" />
+                  <span>{isSubmitting ? 'Confirmando...' : 'Confirmar Reserva'}</span>
+                </button>
+              </div>
+            </form>
+          )}
+        </div>
+
+      </div>
+    </div>
+  );
+};
