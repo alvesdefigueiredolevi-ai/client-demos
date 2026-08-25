@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Lee Hair Studio | Hailey Lee | Digital Perm & Design Cut in Cherry Creek, Denver</title>
+  <meta name="description" content="Love Lee Hair Studio is an independent women's hair studio in Cherry Creek, Denver by Hailey Lee. Specializing in personalized digital perms and precision design cuts." />
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Love Lee Hair Studio | Digital Perm & Design Cut by Hailey Lee" />
+  <meta property="og:description" content="Personalized digital perms and precision design cuts by Hailey Lee in Suite 21, 3000 E 1st Ave, Cherry Creek, Denver, Colorado." />
+  <meta property="og:image" content="https://salonsbyjc.com/wp-content/uploads/2025/02/WhatsApp-Image-2024-08-09-at-21.55.33.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Love Lee Hair Studio | Cherry Creek, Denver" />
+  <meta name="twitter:description" content="Movement, designed for you. Personalized digital perms and design cuts by Hailey Lee." />
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23171717' rx='6'/%3E%3Cpath d='M8 24V8h3.5v12.8h7.5V24H8zm12.5 0V8H24v16h-3.5z' fill='%23F5F0E8'/%3E%3Ccircle cx='24' cy='8' r='3' fill='%23E5533D'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Cormorant Garamond, DM Serif Display, Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Structured Data for BeautySalon (Strictly verified data only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Love Lee Hair Studio",
+    "image": "https://salonsbyjc.com/wp-content/uploads/2025/02/WhatsApp-Image-2024-08-09-at-21.55.33.jpeg",
+    "telephone": "+1-719-627-1747",
+    "email": "loveleehair0417@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Suite 21, 3000 E 1st Ave",
+      "addressLocality": "Denver",
+      "addressRegion": "CO",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"],
+        "opens": "10:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday", "Saturday"],
+        "opens": "09:30",
+        "closes": "20:00"
+      }
+    ],
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.vagaro.com/loveleehair",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "Hair Appointment"
+      }
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Verified Studio Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digital Perm",
+            "description": "Personalized digital perm designed to create soft waves, defined curls, or natural-looking movement."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Design Cut",
+            "description": "A precise, personalized haircut created to complement your features, texture, and everyday styling routine."
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    /* Design Tokens & Reset */
+    :root {
+      --bg-ivory: #F5F0E8;
+      --color-black: #171717;
+      --color-coral: #E5533D;
+      --color-blush: #E7C7C0;
+      --color-cobalt: #2447D8;
+      --color-white: #FFFFFF;
+      --font-display: 'DM Serif Display', 'Cormorant Garamond', Georgia, serif;
+      --font-editorial: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-ivory);
+      color: var(--color-black);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    /* Selection */
+    ::selection {
+      background-color: var(--color-coral);
+      color: var(--color-white);
+    }
+
+    /* Typography Classes */
+    .font-display {
+      font-family: var(--font-display);
+    }
+    .font-editorial {
+      font-family: var(--font-editorial);
+    }
+    .font-sans {
+      font-family: var(--font-sans);
+    }
+
+    /* Container */
+    .site-container {
+      max-width: 1360px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    @media (min-width: 768px) {
+      .site-container {
+        padding-left: 48px;
+        padding-right: 48px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .site-container {
+        padding-left: 64px;
+        padding-right: 64px;
+      }
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-family: var(--font-sans);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 9999px;
+      transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      cursor: pointer;
+      white-space: nowrap;
+      min-height: 48px;
+    }
+    .btn-primary {
+      background-color: var(--color-black);
+      color: var(--bg-ivory);
+      border: 1px solid var(--color-black);
+    }
+    .btn-primary:hover {
+      background-color: var(--color-coral);
+      border-color: var(--color-coral);
+      color: var(--color-white);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px -6px rgba(229, 83, 61, 0.3);
+    }
+    .btn-coral {
+      background-color: var(--color-coral);
+      color: var(--color-white);
+      border: 1px solid var(--color-coral);
+    }
+    .btn-coral:hover {
+      background-color: var(--color-black);
+      border-color: var(--color-black);
+      color: var(--bg-ivory);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px -6px rgba(23, 23, 23, 0.25);
+    }
+    .btn-outline {
+      background-color: transparent;
+      color: var(--color-black);
+      border: 1px solid rgba(23, 23, 23, 0.3);
+    }
+    .btn-outline:hover {
+      border-color: var(--color-black);
+      background-color: rgba(23, 23, 23, 0.05);
+      transform: translateY(-2px);
+    }
+    .btn-outline-white {
+      background-color: transparent;
+      color: var(--color-white);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .btn-outline-white:hover {
+      background-color: var(--color-white);
+      color: var(--color-black);
+      border-color: var(--color-white);
+      transform: translateY(-2px);
+    }
+
+    /* Focus Visible */
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--color-coral);
+      outline-offset: 3px;
+    }
+
+    /* Concept Strip */
+    .concept-top-strip {
+      background-color: var(--color-black);
+      color: rgba(245, 240, 232, 0.75);
+      font-size: 0.6875rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 7px 16px;
+      text-align: center;
+      font-weight: 500;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      z-index: 60;
+    }
+
+    /* Navigation */
+    .editorial-nav {
+      position: sticky;
+      top: 0;
+      background-color: rgba(245, 240, 232, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(23, 23, 23, 0.08);
+      z-index: 50;
+      transition: all 0.3s ease;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+    }
+    .brand-logo {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: var(--color-black);
+    }
+    .brand-logo-main {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      letter-spacing: 0.04em;
+      line-height: 1.1;
+      font-weight: 500;
+    }
+    .brand-logo-sub {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(23, 23, 23, 0.65);
+      font-weight: 600;
+    }
+    .nav-links-desktop {
+      display: none;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+    @media (min-width: 900px) {
+      .nav-links-desktop {
+        display: flex;
+      }
+    }
+    .nav-link {
+      color: var(--color-black);
+      text-decoration: none;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      position: relative;
+      padding: 6px 0;
+      transition: color 0.2s ease;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 1.5px;
+      background-color: var(--color-coral);
+      transition: width 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .nav-link:hover {
+      color: var(--color-coral);
+    }
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    /* Mobile Menu Toggle */
+    .mobile-menu-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      width: 44px;
+      height: 44px;
+      background: none;
+      border: 1px solid rgba(23, 23, 23, 0.15);
+      border-radius: 50%;
+      cursor: pointer;
+      padding: 0;
+    }
+    @media (min-width: 900px) {
+      .mobile-menu-btn {
+        display: none;
+      }
+    }
+    .mobile-menu-btn span {
+      display: block;
+      width: 18px;
+      height: 1.5px;
+      background-color: var(--color-black);
+      transition: all 0.25s ease;
+    }
+    .mobile-menu-btn[aria-expanded="true"] span:nth-child(1) {
+      transform: translateY(6.5px) rotate(45deg);
+    }
+    .mobile-menu-btn[aria-expanded="true"] span:nth-child(2) {
+      opacity: 0;
+    }
+    .mobile-menu-btn[aria-expanded="true"] span:nth-child(3) {
+      transform: translateY(-6.5px) rotate(-45deg);
+    }
+
+    /* Mobile Navigation Overlay */
+    .mobile-nav-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(23, 23, 23, 0.6);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 99;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    .mobile-nav-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    .mobile-nav-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 88vw;
+      max-width: 380px;
+      height: 100vh;
+      background-color: var(--bg-ivory);
+      z-index: 100;
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 32px 28px;
+      box-shadow: -10px 0 40px rgba(0, 0, 0, 0.15);
+      overflow-y: auto;
+    }
+    .mobile-nav-overlay.active .mobile-nav-drawer {
+      transform: translateX(0);
+    }
+
+    /* Hero Section */
+    .hero-section {
+      position: relative;
+      min-height: calc(100vh - 100px);
+      min-height: calc(100dvh - 100px);
+      display: flex;
+      align-items: flex-end;
+      padding-top: 40px;
+      padding-bottom: 70px;
+      background-color: var(--color-black);
+      overflow: hidden;
+    }
+    @media (max-width: 768px) {
+      .hero-section {
+        min-height: auto;
+        padding-bottom: 90px;
+      }
+    }
+
+    /* Ken Burns Animation */
+    .hero-bg-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .hero-bg-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 25%;
+      filter: brightness(0.88) contrast(1.05);
+      transform-origin: center center;
+      animation: kenBurnsSlow 18s ease-in-out infinite alternate;
+    }
+    @keyframes kenBurnsSlow {
+      0% {
+        transform: scale(1) translate(0, 0);
+      }
+      100% {
+        transform: scale(1.09) translate(-1%, -1.5%);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-bg-image {
+        animation: none !important;
+      }
+      .strand-line path {
+        stroke-dashoffset: 0 !important;
+        animation: none !important;
+      }
+      * {
+        animation-duration: 0.001s !important;
+        transition-duration: 0.001s !important;
+      }
+    }
+
+    .hero-overlay-gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(23, 23, 23, 0.4) 0%, rgba(23, 23, 23, 0.15) 40%, rgba(23, 23, 23, 0.75) 100%);
+      z-index: 2;
+    }
+
+    /* Oversized Magazine Typography behind content */
+    .hero-magazine-backdrop {
+      position: absolute;
+      top: 8%;
+      right: 4%;
+      z-index: 3;
+      pointer-events: none;
+      user-select: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      opacity: 0.18;
+      mix-blend-mode: overlay;
+    }
+    .hero-backdrop-text {
+      font-family: var(--font-display);
+      font-size: clamp(4.5rem, 14vw, 15rem);
+      line-height: 0.85;
+      color: var(--color-white);
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+    }
+
+    /* Hair Strand SVG Animation */
+    .hero-strand-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 4;
+      pointer-events: none;
+    }
+    .hair-strand-path {
+      stroke: var(--color-blush);
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      fill: none;
+      opacity: 0.6;
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      animation: drawStrand 6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards 0.4s;
+    }
+    .hair-strand-path-coral {
+      stroke: var(--color-coral);
+      stroke-width: 1.2;
+      stroke-linecap: round;
+      fill: none;
+      opacity: 0.45;
+      stroke-dasharray: 1800;
+      stroke-dashoffset: 1800;
+      animation: drawStrand 8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards 0.8s;
+    }
+    @keyframes drawStrand {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    /* Live booking pulse */
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--color-black);
+      background-color: rgba(255, 255, 255, 0.75);
+      border: 1px solid rgba(23, 23, 23, 0.1);
+      padding: 6px 12px;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+      backdrop-filter: blur(4px);
+    }
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--color-coral);
+      position: relative;
+    }
+    .pulse-dot::after {
+      content: '';
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      border: 1.5px solid var(--color-coral);
+      animation: coralPulse 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    }
+    @keyframes coralPulse {
+      0% {
+        transform: scale(0.5);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+
+    /* Editorial Overlapping Panel */
+    .hero-editorial-panel {
+      position: relative;
+      z-index: 5;
+      background-color: rgba(245, 240, 232, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: 12px;
+      padding: 36px 32px;
+      max-width: 580px;
+      box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.3);
+      animation: heroPanelFadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    @media (min-width: 768px) {
+      .hero-editorial-panel {
+        padding: 48px 44px;
+      }
+    }
+    @keyframes heroPanelFadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .eyebrow-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-coral);
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .hero-headline {
+      font-family: var(--font-display);
+      font-size: clamp(2.35rem, 5.2vw, 4.2rem);
+      line-height: 1.05;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      color: var(--color-black);
+      margin-bottom: 16px;
+    }
+    .hero-headline em {
+      font-family: var(--font-editorial);
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .hero-subheadline {
+      font-size: clamp(0.95rem, 1.3vw, 1.125rem);
+      line-height: 1.6;
+      color: rgba(23, 23, 23, 0.85);
+      margin-bottom: 28px;
+      font-weight: 400;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 22px;
+    }
+
+    .hero-location-note {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(23, 23, 23, 0.6);
+      font-weight: 600;
+      border-top: 1px solid rgba(23, 23, 23, 0.1);
+      padding-top: 18px;
+      margin-top: 6px;
+    }
+
+    /* Section 1: Texture Statement */
+    .texture-statement-section {
+      padding: 100px 0;
+      background-color: var(--bg-ivory);
+      position: relative;
+      overflow: hidden;
+    }
+    @media (min-width: 768px) {
+      .texture-statement-section {
+        padding: 140px 0;
+      }
+    }
+    .statement-headline {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5.8vw, 4.8rem);
+      line-height: 1.1;
+      font-weight: 400;
+      color: var(--color-black);
+      letter-spacing: -0.02em;
+      max-width: 980px;
+    }
+    .statement-headline em {
+      font-family: var(--font-editorial);
+      font-style: italic;
+      color: var(--color-coral);
+    }
+    .statement-paragraph {
+      font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+      line-height: 1.7;
+      color: rgba(23, 23, 23, 0.8);
+      max-width: 620px;
+      margin-top: 28px;
+      font-weight: 400;
+    }
+
+    /* Curl pattern SVG */
+    .curl-svg-wrapper {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 720px;
+      height: 70px;
+    }
+    .curl-wave-path {
+      stroke: var(--color-black);
+      stroke-width: 1.5;
+      fill: none;
+      opacity: 0.85;
+      stroke-dasharray: 1200;
+      stroke-dashoffset: 0;
+    }
+
+    /* Section 2: Two Signature Services */
+    .services-section {
+      padding: 80px 0 120px;
+      background-color: #ECE5DB;
+      position: relative;
+    }
+    @media (min-width: 768px) {
+      .services-section {
+        padding: 120px 0 160px;
+      }
+    }
+    .section-header-block {
+      margin-bottom: 64px;
+    }
+    .section-numeral {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      letter-spacing: 0.25em;
+      color: var(--color-coral);
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.15;
+      color: var(--color-black);
+      font-weight: 400;
+    }
+
+    .service-editorial-card {
+      background-color: var(--bg-ivory);
+      border-radius: 12px;
+      border: 1px solid rgba(23, 23, 23, 0.08);
+      padding: 40px 32px;
+      margin-bottom: 40px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+    @media (min-width: 900px) {
+      .service-editorial-card {
+        grid-template-columns: 1fr 1fr;
+        padding: 56px 52px;
+        gap: 60px;
+      }
+      .service-editorial-card.reverse {
+        grid-template-columns: 1fr 1fr;
+      }
+      .service-editorial-card.reverse .service-content {
+        order: 2;
+      }
+      .service-editorial-card.reverse .service-visual {
+        order: 1;
+      }
+    }
+    .service-editorial-card:hover {
+      box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.07);
+    }
+    .service-badge-number {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: var(--color-coral);
+      margin-bottom: 12px;
+      display: block;
+      font-weight: 500;
+    }
+    .service-name {
+      font-family: var(--font-sans);
+      font-size: 0.8125rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(23, 23, 23, 0.6);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .service-headline {
+      font-family: var(--font-display);
+      font-size: clamp(1.85rem, 3vw, 2.75rem);
+      line-height: 1.15;
+      color: var(--color-black);
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+    .service-copy {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: rgba(23, 23, 23, 0.8);
+      margin-bottom: 30px;
+    }
+    .service-visual-box {
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      aspect-ratio: 4 / 3;
+      background-color: #E2DBD0;
+    }
+    .service-visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .service-editorial-card:hover .service-visual-box img {
+      transform: scale(1.04);
+    }
+    .service-visual-caption {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background-color: rgba(23, 23, 23, 0.7);
+      color: rgba(245, 240, 232, 0.9);
+      font-size: 0.6875rem;
+      letter-spacing: 0.1em;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      backdrop-filter: blur(4px);
+    }
+
+    /* Section 3: Meet Hailey */
+    .profile-section {
+      padding: 100px 0;
+      background-color: var(--bg-ivory);
+      position: relative;
+    }
+    @media (min-width: 768px) {
+      .profile-section {
+        padding: 140px 0;
+      }
+    }
+    .profile-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (min-width: 900px) {
+      .profile-grid {
+        grid-template-columns: 1.1fr 1fr;
+        gap: 80px;
+      }
+    }
+    .profile-image-frame {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 24px 50px -12px rgba(0, 0, 0, 0.15);
+      background-color: #E4DCD2;
+      aspect-ratio: 4 / 3;
+    }
+    .profile-image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .profile-image-accent {
+      position: absolute;
+      top: -15px;
+      left: -15px;
+      width: 100px;
+      height: 100px;
+      border-top: 2px solid var(--color-coral);
+      border-left: 2px solid var(--color-coral);
+      pointer-events: none;
+      z-index: 2;
+    }
+    .profile-meta-tag {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background-color: rgba(245, 240, 232, 0.95);
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--color-black);
+      border: 1px solid rgba(23, 23, 23, 0.1);
+      backdrop-filter: blur(8px);
+    }
+    .profile-content h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+      line-height: 1.1;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    .profile-text {
+      font-size: 1.125rem;
+      line-height: 1.75;
+      color: rgba(23, 23, 23, 0.85);
+      margin-bottom: 36px;
+    }
+    .profile-action-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+
+    /* Section 4: Experience Timeline */
+    .experience-section {
+      padding: 100px 0;
+      background-color: var(--color-black);
+      color: var(--bg-ivory);
+      position: relative;
+      overflow: hidden;
+    }
+    @media (min-width: 768px) {
+      .experience-section {
+        padding: 140px 0;
+      }
+    }
+    .experience-section .section-title {
+      color: var(--bg-ivory);
+    }
+    .experience-section .section-header-block {
+      max-width: 650px;
+    }
+
+    .experience-timeline {
+      position: relative;
+      margin-top: 60px;
+    }
+    .timeline-progress-line-track {
+      display: none;
+      position: absolute;
+      top: 45px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: rgba(245, 240, 232, 0.15);
+      z-index: 1;
+    }
+    .timeline-progress-line-fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: var(--color-coral);
+      transform-origin: left;
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @media (min-width: 900px) {
+      .timeline-progress-line-track {
+        display: block;
+      }
+    }
+    .experience-steps-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      position: relative;
+      z-index: 2;
+    }
+    @media (min-width: 600px) {
+      .experience-steps-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (min-width: 900px) {
+      .experience-steps-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+      }
+    }
+
+    .experience-step-item {
+      position: relative;
+      padding-top: 20px;
+    }
+    .step-number-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: var(--color-black);
+      border: 1.5px solid var(--color-coral);
+      color: var(--color-coral);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      margin-bottom: 24px;
+      transition: all 0.3s ease;
+    }
+    .experience-step-item:hover .step-number-circle {
+      background-color: var(--color-coral);
+      color: var(--color-white);
+      transform: scale(1.08);
+    }
+    .step-title {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--bg-ivory);
+      margin-bottom: 12px;
+    }
+    .step-desc {
+      font-size: 0.9375rem;
+      line-height: 1.65;
+      color: rgba(245, 240, 232, 0.7);
+    }
+
+    /* Section 5: Visual Moodboard */
+    .moodboard-section {
+      padding: 100px 0;
+      background-color: var(--bg-ivory);
+      position: relative;
+    }
+    @media (min-width: 768px) {
+      .moodboard-section {
+        padding: 130px 0;
+      }
+    }
+    .moodboard-strip {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-top: 48px;
+    }
+    @media (min-width: 640px) {
+      .moodboard-strip {
+        grid-template-columns: 1.2fr 0.8fr 1fr;
+      }
+    }
+    @media (min-width: 1024px) {
+      .moodboard-strip {
+        grid-template-columns: 1.3fr 0.9fr 1.2fr;
+        gap: 24px;
+      }
+    }
+    .mood-image-wrapper {
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      background-color: #E2DBD0;
+    }
+    .mood-image-wrapper.portrait {
+      aspect-ratio: 3 / 4;
+    }
+    .mood-image-wrapper.tall {
+      aspect-ratio: 2 / 3.4;
+    }
+    .mood-image-wrapper.wide {
+      aspect-ratio: 4 / 3.5;
+    }
+    .mood-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .mood-image-wrapper:hover img {
+      transform: scale(1.05);
+    }
+    .mood-caption-tag {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      font-size: 0.6875rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-white);
+      background-color: rgba(23, 23, 23, 0.65);
+      padding: 4px 10px;
+      border-radius: 9999px;
+      backdrop-filter: blur(4px);
+    }
+    .moodboard-disclaimer {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(23, 23, 23, 0.5);
+      margin-top: 24px;
+      text-align: right;
+    }
+
+    /* Section 6: Visit the Studio */
+    .studio-section {
+      padding: 100px 0;
+      background-color: #ECE5DB;
+      position: relative;
+    }
+    @media (min-width: 768px) {
+      .studio-section {
+        padding: 140px 0;
+      }
+    }
+    .studio-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+    @media (min-width: 900px) {
+      .studio-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 64px;
+      }
+    }
+    .studio-info-card {
+      background-color: var(--bg-ivory);
+      border-radius: 12px;
+      border: 1px solid rgba(23, 23, 23, 0.08);
+      padding: 40px 32px;
+    }
+    @media (min-width: 768px) {
+      .studio-info-card {
+        padding: 48px 40px;
+      }
+    }
+    .studio-info-title {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+    .studio-meta-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+      align-items: flex-start;
+    }
+    .studio-meta-icon {
+      width: 20px;
+      height: 20px;
+      color: var(--color-coral);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+    .studio-meta-text {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: rgba(23, 23, 23, 0.85);
+    }
+    .studio-meta-text a {
+      color: var(--color-black);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s ease;
+    }
+    .studio-meta-text a:hover {
+      color: var(--color-coral);
+    }
+
+    .hours-table {
+      width: 100%;
+      margin-top: 24px;
+      border-collapse: collapse;
+    }
+    .hours-table tr {
+      border-bottom: 1px solid rgba(23, 23, 23, 0.08);
+    }
+    .hours-table tr:last-child {
+      border-bottom: none;
+    }
+    .hours-table td {
+      padding: 10px 0;
+      font-size: 0.875rem;
+    }
+    .hours-table td.day {
+      color: rgba(23, 23, 23, 0.65);
+      font-weight: 500;
+    }
+    .hours-table td.time {
+      text-align: right;
+      font-weight: 600;
+      color: var(--color-black);
+    }
+    .hours-table td.closed {
+      color: rgba(23, 23, 23, 0.4);
+      font-style: italic;
+    }
+
+    /* Editorial Map Aesthetic Block */
+    .studio-map-editorial-card {
+      background-color: var(--color-black);
+      color: var(--bg-ivory);
+      border-radius: 12px;
+      padding: 40px 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+    @media (min-width: 768px) {
+      .studio-map-editorial-card {
+        padding: 48px 40px;
+      }
+    }
+    .map-graphic-bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.08;
+      pointer-events: none;
+    }
+    .studio-map-title {
+      font-family: var(--font-display);
+      font-size: 1.85rem;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      color: var(--bg-ivory);
+    }
+    .studio-map-subtitle {
+      font-size: 0.9375rem;
+      color: rgba(245, 240, 232, 0.7);
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+    .studio-buttons-vertical {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Section 7: Final Booking CTA */
+    .final-cta-section {
+      background-color: var(--color-coral);
+      color: var(--color-black);
+      padding: 100px 0;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .final-cta-section {
+        padding: 140px 0;
+      }
+    }
+    .final-cta-backdrop-watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: var(--font-display);
+      font-size: clamp(6rem, 20vw, 22rem);
+      color: rgba(23, 23, 23, 0.06);
+      text-transform: uppercase;
+      pointer-events: none;
+      user-select: none;
+      white-space: nowrap;
+      line-height: 1;
+    }
+    .final-cta-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .final-cta-headline {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 6vw, 5rem);
+      line-height: 1.05;
+      font-weight: 400;
+      color: var(--color-black);
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+    .final-cta-copy {
+      font-size: clamp(1.05rem, 1.6vw, 1.35rem);
+      line-height: 1.6;
+      color: rgba(23, 23, 23, 0.85);
+      margin-bottom: 40px;
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .final-cta-btn {
+      background-color: var(--color-black);
+      color: var(--bg-ivory);
+      border: 1px solid var(--color-black);
+      font-size: 0.9375rem;
+      padding: 18px 40px;
+    }
+    .final-cta-btn:hover {
+      background-color: var(--color-white);
+      color: var(--color-black);
+      border-color: var(--color-white);
+      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Footer */
+    .site-footer {
+      background-color: var(--color-black);
+      color: var(--bg-ivory);
+      padding: 60px 0 110px;
+      border-top: 1px solid rgba(245, 240, 232, 0.1);
+    }
+    @media (min-width: 768px) {
+      .site-footer {
+        padding: 80px 0 60px;
+      }
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      margin-bottom: 48px;
+    }
+    @media (min-width: 768px) {
+      .footer-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 60px;
+      }
+    }
+    .footer-brand-title {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+    .footer-brand-sub {
+      font-size: 0.875rem;
+      color: rgba(245, 240, 232, 0.6);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .footer-col-heading {
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--color-coral);
+      margin-bottom: 18px;
+    }
+    .footer-links-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-links-list a {
+      color: rgba(245, 240, 232, 0.75);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s ease;
+    }
+    .footer-links-list a:hover {
+      color: var(--color-coral);
+    }
+    .footer-bottom-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(245, 240, 232, 0.1);
+      font-size: 0.75rem;
+      color: rgba(245, 240, 232, 0.5);
+    }
+    @media (min-width: 768px) {
+      .footer-bottom-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    /* Fixed Mobile Booking Bar */
+    .mobile-fixed-cta-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(23, 23, 23, 0.96);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 12px 16px;
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 10px;
+      z-index: 45;
+      box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.25);
+    }
+    @media (min-width: 768px) {
+      .mobile-fixed-cta-bar {
+        display: none;
+      }
+    }
+    .mobile-bar-btn-call {
+      background-color: transparent;
+      border: 1px solid rgba(245, 240, 232, 0.3);
+      color: var(--bg-ivory);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border-radius: 9999px;
+      height: 44px;
+    }
+    .mobile-bar-btn-book {
+      background-color: var(--color-coral);
+      border: 1px solid var(--color-coral);
+      color: var(--color-white);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border-radius: 9999px;
+      height: 44px;
+    }
+
+    /* Scroll Reveal Animations */
+    .reveal-item {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal-item.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Concept Notice Strip -->
+  <aside class="concept-top-strip" id="concept-notice" aria-label="Website Concept Notice">
+    Website Concept Prepared for Love Lee Hair Studio
+  </aside>
+
+  <!-- Editorial Navigation Bar -->
+  <header class="editorial-nav" id="main-navigation">
+    <div class="site-container">
+      <div class="nav-inner">
+        <!-- Logo -->
+        <a href="#hero" class="brand-logo" id="nav-brand-link" aria-label="Love Lee Hair Studio Home">
+          <span class="brand-logo-main">LOVE LEE</span>
+          <span class="brand-logo-sub">Hair Studio · Cherry Creek</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav aria-label="Primary Navigation">
+          <ul class="nav-links-desktop">
+            <li><a href="#services" class="nav-link" id="nav-link-services">Services</a></li>
+            <li><a href="#profile" class="nav-link" id="nav-link-profile">About Hailey</a></li>
+            <li><a href="#experience" class="nav-link" id="nav-link-experience">Experience</a></li>
+            <li><a href="#moodboard" class="nav-link" id="nav-link-moodboard">Inspiration</a></li>
+            <li><a href="#studio" class="nav-link" id="nav-link-studio">Visit Studio</a></li>
+            <li>
+              <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="nav-btn-book">
+                Book with Hailey
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-expanded="false" aria-label="Open Navigation Menu" aria-controls="mobile-nav-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 36px;">
+          <div>
+            <div class="brand-logo-main">LOVE LEE</div>
+            <div class="brand-logo-sub">Cherry Creek · Denver</div>
+          </div>
+          <button type="button" class="mobile-menu-btn" id="mobile-menu-close" aria-label="Close Menu" style="border: none;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 20px; margin-bottom: 36px;">
+          <li><a href="#services" class="mobile-nav-item" style="font-family: var(--font-display); font-size: 1.75rem; color: var(--color-black); text-decoration: none;" id="mobile-link-services">Services</a></li>
+          <li><a href="#profile" class="mobile-nav-item" style="font-family: var(--font-display); font-size: 1.75rem; color: var(--color-black); text-decoration: none;" id="mobile-link-profile">About Hailey</a></li>
+          <li><a href="#experience" class="mobile-nav-item" style="font-family: var(--font-display); font-size: 1.75rem; color: var(--color-black); text-decoration: none;" id="mobile-link-experience">The Experience</a></li>
+          <li><a href="#moodboard" class="mobile-nav-item" style="font-family: var(--font-display); font-size: 1.75rem; color: var(--color-black); text-decoration: none;" id="mobile-link-moodboard">Visual Moodboard</a></li>
+          <li><a href="#studio" class="mobile-nav-item" style="font-family: var(--font-display); font-size: 1.75rem; color: var(--color-black); text-decoration: none;" id="mobile-link-studio">Visit Studio</a></li>
+        </ul>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="btn btn-coral" style="width: 100%;" id="mobile-drawer-btn-book">
+          Book with Hailey
+        </a>
+        <a href="tel:+17196271747" class="btn btn-outline" style="width: 100%;" id="mobile-drawer-btn-call">
+          Call (719) 627-1747
+        </a>
+        <p style="font-size: 0.75rem; text-align: center; color: rgba(23, 23, 23, 0.5); margin-top: 10px;">
+          Suite 21 · 3000 E 1st Ave · Denver, CO
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION: Original Magazine-Cover Composition -->
+    <section class="hero-section" id="hero" aria-label="Hero Introduction">
+      <!-- Ken Burns Background Container -->
+      <div class="hero-bg-container">
+        <img 
+          src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=2069&auto=format&fit=crop" 
+          alt="Visual presentation concept of flowing hair with natural movement and soft waves"
+          class="hero-bg-image" 
+          id="hero-image-bg"
+          loading="eager"
+          onerror="this.src='https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=2000&auto=format&fit=crop';"
+        />
+        <div class="hero-overlay-gradient"></div>
+      </div>
+
+      <!-- Oversized Vertical Magazine Typography Backdrop -->
+      <div class="hero-magazine-backdrop" aria-hidden="true">
+        <span class="hero-backdrop-text">LOVE</span>
+        <span class="hero-backdrop-text">LEE</span>
+      </div>
+
+      <!-- Hair Strand Drawing SVG Graphic -->
+      <svg class="hero-strand-svg" viewBox="0 0 1440 900" fill="none" preserveAspectRatio="none" aria-hidden="true">
+        <path class="hair-strand-path" d="M -50,150 C 300,100 500,450 850,300 C 1100,200 1250,600 1500,450" />
+        <path class="hair-strand-path-coral" d="M 0,250 C 350,220 550,580 900,420 C 1180,320 1300,750 1520,600" />
+      </svg>
+
+      <div class="site-container" style="width: 100%;">
+        <!-- Translucent Ivory Editorial Panel (Lower-Left Overlapping Layout) -->
+        <div class="hero-editorial-panel" id="hero-panel">
+          <!-- Live Status Badge -->
+          <div class="status-badge" id="hero-status-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Now booking appointments</span>
+          </div>
+
+          <span class="eyebrow-tag">DIGITAL PERM & DESIGN CUT · CHERRY CREEK</span>
+
+          <h1 class="hero-headline">
+            Movement, <em>designed for you.</em>
+          </h1>
+
+          <p class="hero-subheadline">
+            Personalized digital perms and precision design cuts by Hailey Lee in an independent Denver hair studio.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="btn btn-coral" id="hero-btn-book">
+              Book with Hailey
+            </a>
+            <a href="tel:+17196271747" class="btn btn-outline" id="hero-btn-call">
+              Call the Studio
+            </a>
+          </div>
+
+          <div class="hero-location-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Suite 21 · Cherry Creek · Denver</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: THE TEXTURE STATEMENT -->
+    <section class="texture-statement-section" id="statement" aria-label="Texture Statement">
+      <div class="site-container">
+        <div class="reveal-item">
+          <span class="eyebrow-tag">PHILOSOPHY OF SHAPE</span>
+          <h2 class="statement-headline">
+            Not just curls. <em>A shape made to move.</em>
+          </h2>
+          <p class="statement-paragraph">
+            The studio focuses on personalized texture and thoughtful shape, crafting hair that flows effortlessly, holds balanced weight, and feels intuitive in your day-to-day life.
+          </p>
+
+          <!-- Animated SVG Curl Pattern -->
+          <div class="curl-svg-wrapper" aria-hidden="true">
+            <svg viewBox="0 0 700 70" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+              <path class="curl-wave-path" d="M0 35 Q 35 5, 70 35 T 140 35 T 210 35 T 280 35 T 350 35 T 420 35 T 490 35 T 560 35 T 630 35 T 700 35" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: TWO SIGNATURE SERVICES -->
+    <section class="services-section" id="services" aria-label="Signature Studio Services">
+      <div class="site-container">
+        <div class="section-header-block reveal-item">
+          <span class="section-numeral">SIGNATURE SERVICES</span>
+          <h2 class="section-title">Two Dedicated Disciplines</h2>
+        </div>
+
+        <!-- 01: DIGITAL PERM -->
+        <article class="service-editorial-card reveal-item" id="service-digital-perm">
+          <div class="service-content">
+            <span class="service-badge-number">01</span>
+            <div class="service-name">VERIFIED SERVICE</div>
+            <h3 class="service-headline">Digital Perm</h3>
+            <div style="font-family: var(--font-editorial); font-size: 1.35rem; font-style: italic; color: var(--color-coral); margin-bottom: 12px;">
+              Lasting movement with a modern finish.
+            </div>
+            <p class="service-copy">
+              A personalized digital perm designed to create soft waves, defined curls, or natural-looking movement that works with your individual style.
+            </p>
+            <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="service-perm-cta">
+              Book a Digital Perm
+            </a>
+          </div>
+          <div class="service-visual">
+            <div class="service-visual-box">
+              <img 
+                src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1200&auto=format&fit=crop" 
+                alt="Visual concept representing soft digital perm waves and organic curl movement" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop';"
+              />
+              <span class="service-visual-caption">Digital Perm · Visual Direction</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02: DESIGN CUT -->
+        <article class="service-editorial-card reverse reveal-item" id="service-design-cut">
+          <div class="service-content">
+            <span class="service-badge-number">02</span>
+            <div class="service-name">VERIFIED SERVICE</div>
+            <h3 class="service-headline">Design Cut</h3>
+            <div style="font-family: var(--font-editorial); font-size: 1.35rem; font-style: italic; color: var(--color-coral); margin-bottom: 12px;">
+              A cut built around balance and movement.
+            </div>
+            <p class="service-copy">
+              A precise, personalized haircut created to complement your features, texture, and everyday styling routine.
+            </p>
+            <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="service-cut-cta">
+              Book a Design Cut
+            </a>
+          </div>
+          <div class="service-visual">
+            <div class="service-visual-box">
+              <img 
+                src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1200&auto=format&fit=crop" 
+                alt="Visual concept representing precision haircut texture, framing, and clean lines" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop';"
+              />
+              <span class="service-visual-caption">Design Cut · Visual Direction</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 3: MEET HAILEY -->
+    <section class="profile-section" id="profile" aria-label="About Hailey Lee">
+      <div class="site-container">
+        <div class="profile-grid">
+          <!-- Studio Space Photograph -->
+          <div class="profile-image-container reveal-item">
+            <div class="profile-image-frame">
+              <div class="profile-image-accent" aria-hidden="true"></div>
+              <img 
+                src="https://salonsbyjc.com/wp-content/uploads/2025/02/WhatsApp-Image-2024-08-09-at-21.55.33.jpeg" 
+                alt="Love Lee Hair Studio interior space at Suite 21, Salons by JC in Cherry Creek, Denver"
+                id="profile-studio-photo"
+                loading="lazy"
+                onerror="this.parentElement.style.background='linear-gradient(135deg, #171717 0%, #333 100%)'; this.style.display='none';"
+              />
+              <div class="profile-meta-tag">
+                Suite 21 · Cherry Creek
+              </div>
+            </div>
+          </div>
+
+          <!-- Editorial Profile Content -->
+          <div class="profile-content reveal-item">
+            <span class="eyebrow-tag">YOUR STYLIST</span>
+            <h2>Meet Hailey Lee.</h2>
+            <p class="profile-text">
+              At Love Lee Hair Studio, every appointment is centered on personal attention, thoughtful design, and a finished look that feels naturally yours.
+            </p>
+            <div class="profile-action-stack">
+              <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="btn btn-coral" id="profile-btn-book">
+                Book with Hailey
+              </a>
+              <a href="tel:+17196271747" class="btn btn-outline" id="profile-btn-call">
+                Call (719) 627-1747
+              </a>
+              <a href="mailto:loveleehair0417@gmail.com" class="btn btn-outline" id="profile-btn-email">
+                Email Hailey
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: THE LOVE LEE EXPERIENCE -->
+    <section class="experience-section" id="experience" aria-label="The Studio Experience">
+      <div class="site-container">
+        <div class="section-header-block reveal-item">
+          <span class="eyebrow-tag" style="color: var(--color-coral);">FOUR-STEP PROCESS</span>
+          <h2 class="section-title">The Love Lee Experience</h2>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Animated Coral Progress Line -->
+          <div class="timeline-progress-line-track" aria-hidden="true">
+            <div class="timeline-progress-line-fill" id="experience-progress-bar"></div>
+          </div>
+
+          <div class="experience-steps-grid">
+            <!-- 01 CONSULT -->
+            <div class="experience-step-item reveal-item">
+              <div class="step-number-circle">01</div>
+              <h3 class="step-title">Consult</h3>
+              <p class="step-desc">
+                Talk through your desired movement, shape, and daily routine.
+              </p>
+            </div>
+
+            <!-- 02 DESIGN -->
+            <div class="experience-step-item reveal-item">
+              <div class="step-number-circle">02</div>
+              <h3 class="step-title">Design</h3>
+              <p class="step-desc">
+                Create a personalized direction for your cut or digital perm.
+              </p>
+            </div>
+
+            <!-- 03 TRANSFORM -->
+            <div class="experience-step-item reveal-item">
+              <div class="step-number-circle">03</div>
+              <h3 class="step-title">Transform</h3>
+              <p class="step-desc">
+                Bring the chosen shape and texture to life with attentive studio service.
+              </p>
+            </div>
+
+            <!-- 04 FINISH -->
+            <div class="experience-step-item reveal-item">
+              <div class="step-number-circle">04</div>
+              <h3 class="step-title">Finish</h3>
+              <p class="step-desc">
+                Complete the appointment with a polished, wearable result.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: VISUAL MOODBOARD -->
+    <section class="moodboard-section" id="moodboard" aria-label="Visual Moodboard and Inspiration">
+      <div class="site-container">
+        <div class="reveal-item">
+          <span class="eyebrow-tag">TEXTURE & SHAPE · VISUAL INSPIRATION</span>
+          <h2 class="section-title">Aesthetic Direction</h2>
+          <p style="font-size: 1.05rem; color: rgba(23, 23, 23, 0.8); max-width: 600px; margin-top: 12px;">
+            A visual direction inspired by movement, precision, soft texture, and modern hair design.
+          </p>
+        </div>
+
+        <!-- Asymmetric Editorial Image Strip -->
+        <div class="moodboard-strip">
+          <div class="mood-image-wrapper portrait reveal-item">
+            <img 
+              src="https://images.unsplash.com/photo-1584297091622-af8e5fd89e3a?q=80&w=1000&auto=format&fit=crop" 
+              alt="Visual inspiration depicting subtle wavy hair texture and natural flow"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1000&auto=format&fit=crop';"
+            />
+            <span class="mood-caption-tag">Organic Movement</span>
+          </div>
+
+          <div class="mood-image-wrapper tall reveal-item">
+            <img 
+              src="https://images.unsplash.com/photo-1500840216050-6ffa99d75160?q=80&w=1000&auto=format&fit=crop" 
+              alt="Visual inspiration depicting defined strand details and soft shape"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1000&auto=format&fit=crop';"
+            />
+            <span class="mood-caption-tag">Wave Definition</span>
+          </div>
+
+          <div class="mood-image-wrapper wide reveal-item">
+            <img 
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop" 
+              alt="Visual inspiration depicting precision cut finish and polished styling"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1000&auto=format&fit=crop';"
+            />
+            <span class="mood-caption-tag">Clean Balance</span>
+          </div>
+        </div>
+
+        <p class="moodboard-disclaimer">
+          Concept imagery shown for design presentation.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 6: VISIT THE STUDIO -->
+    <section class="studio-section" id="studio" aria-label="Studio Location and Hours">
+      <div class="site-container">
+        <div class="reveal-item" style="margin-bottom: 48px;">
+          <span class="eyebrow-tag">LOCATION & HOURS</span>
+          <h2 class="section-title">Visit Love Lee Hair Studio</h2>
+        </div>
+
+        <div class="studio-grid">
+          <!-- Information Card -->
+          <div class="studio-info-card reveal-item">
+            <h3 class="studio-info-title">Studio Details</h3>
+
+            <div class="studio-meta-row">
+              <svg class="studio-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div class="studio-meta-text">
+                <strong>Love Lee Hair Studio</strong><br />
+                Hailey Lee<br />
+                Suite 21, 3000 E 1st Ave<br />
+                Denver, Colorado
+              </div>
+            </div>
+
+            <div class="studio-meta-row">
+              <svg class="studio-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div class="studio-meta-text">
+                <a href="tel:+17196271747" id="studio-phone-link">(719) 627-1747</a>
+              </div>
+            </div>
+
+            <div class="studio-meta-row">
+              <svg class="studio-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div class="studio-meta-text">
+                <a href="mailto:loveleehair0417@gmail.com" id="studio-email-link">loveleehair0417@gmail.com</a>
+              </div>
+            </div>
+
+            <table class="hours-table" aria-label="Studio Operating Hours">
+              <tbody>
+                <tr>
+                  <td class="day">Monday</td>
+                  <td class="time closed">Closed</td>
+                </tr>
+                <tr>
+                  <td class="day">Tuesday</td>
+                  <td class="time">10:00 AM – 8:00 PM</td>
+                </tr>
+                <tr>
+                  <td class="day">Wednesday</td>
+                  <td class="time">10:00 AM – 8:00 PM</td>
+                </tr>
+                <tr>
+                  <td class="day">Thursday</td>
+                  <td class="time">10:00 AM – 8:00 PM</td>
+                </tr>
+                <tr>
+                  <td class="day">Friday</td>
+                  <td class="time">9:30 AM – 8:00 PM</td>
+                </tr>
+                <tr>
+                  <td class="day">Saturday</td>
+                  <td class="time">9:30 AM – 8:00 PM</td>
+                </tr>
+                <tr>
+                  <td class="day">Sunday</td>
+                  <td class="time closed">Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Editorial Map Composition Card -->
+          <div class="studio-map-editorial-card reveal-item">
+            <!-- Subtle architectural line background -->
+            <svg class="map-graphic-bg" viewBox="0 0 400 400" fill="none" stroke="white" stroke-width="1" aria-hidden="true">
+              <line x1="0" y1="100" x2="400" y2="100" />
+              <line x1="0" y1="200" x2="400" y2="200" />
+              <line x1="0" y1="300" x2="400" y2="300" />
+              <line x1="100" y1="0" x2="100" y2="400" />
+              <line x1="200" y1="0" x2="200" y2="400" />
+              <line x1="300" y1="0" x2="300" y2="400" />
+              <circle cx="200" cy="200" r="40" stroke-width="2" />
+            </svg>
+
+            <div>
+              <span class="eyebrow-tag" style="color: var(--color-coral);">CHERRY CREEK STUDIO</span>
+              <h3 class="studio-map-title">Private Studio Setting</h3>
+              <p class="studio-map-subtitle">
+                Located inside Salons by JC in Denver's Cherry Creek neighborhood. Appointments are scheduled one-on-one to ensure an uninterrupted, personalized experience.
+              </p>
+            </div>
+
+            <div class="studio-buttons-vertical">
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=3000+E+1st+Ave+Suite+21+Denver+Colorado" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn btn-outline-white" 
+                id="studio-btn-directions"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                </svg>
+                Get Directions
+              </a>
+              <a href="tel:+17196271747" class="btn btn-outline-white" id="studio-btn-call-alt">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                Call the Studio
+              </a>
+              <a 
+                href="https://www.vagaro.com/loveleehair" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn btn-coral" 
+                id="studio-btn-vagaro"
+              >
+                Book on Vagaro
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: FINAL BOOKING CTA -->
+    <section class="final-cta-section" id="booking" aria-label="Book Appointment">
+      <!-- Watermark text -->
+      <div class="final-cta-backdrop-watermark" aria-hidden="true">
+        LOVE LEE
+      </div>
+
+      <div class="site-container">
+        <div class="final-cta-inner reveal-item">
+          <span class="eyebrow-tag" style="color: var(--color-black);">PRIVATE APPOINTMENTS</span>
+          <h2 class="final-cta-headline">Ready for your next shape?</h2>
+          <p class="final-cta-copy">
+            Book your Love Lee Hair Studio appointment with Hailey Lee in Cherry Creek.
+          </p>
+          <a 
+            href="https://www.vagaro.com/loveleehair" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="btn final-cta-btn" 
+            id="final-cta-btn-book"
+          >
+            Book with Hailey
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" id="footer" role="contentinfo">
+    <div class="site-container">
+      <div class="footer-grid">
+        <!-- Brand & Address -->
+        <div>
+          <div class="footer-brand-title">Love Lee Hair Studio</div>
+          <p class="footer-brand-sub">
+            Independent women’s hair studio by Hailey Lee.<br />
+            Suite 21, 3000 E 1st Ave, Denver, Colorado
+          </p>
+          <p style="font-size: 0.8125rem; color: rgba(245, 240, 232, 0.5);">
+            Official listing on <a href="https://salonsbyjc.com/salons/love-lee-hair-studio/" target="_blank" rel="noopener noreferrer" style="color: var(--bg-ivory); text-decoration: underline;" id="footer-salonsbyjc-link">Salons by JC</a>
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-heading">Verified Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer">Digital Perm</a></li>
+            <li><a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer">Design Cut</a></li>
+            <li><a href="#experience">The Experience</a></li>
+            <li><a href="#moodboard">Visual Inspiration</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Hours summary -->
+        <div>
+          <h4 class="footer-col-heading">Direct Contact</h4>
+          <ul class="footer-links-list">
+            <li><a href="tel:+17196271747">(719) 627-1747</a></li>
+            <li><a href="mailto:loveleehair0417@gmail.com">loveleehair0417@gmail.com</a></li>
+            <li><a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer">Vagaro Online Booking</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=3000+E+1st+Ave+Suite+21+Denver+Colorado" target="_blank" rel="noopener noreferrer">Google Maps</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; <span id="current-year">2026</span> Love Lee Hair Studio · Hailey Lee. All rights reserved.
+        </div>
+        <div style="font-size: 0.75rem; color: rgba(245, 240, 232, 0.4);">
+          Cherry Creek · Denver, Colorado
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fixed Mobile Booking Bar -->
+  <aside class="mobile-fixed-cta-bar" id="mobile-sticky-bar" aria-label="Quick Actions Bar">
+    <a href="tel:+17196271747" class="mobile-bar-btn-call" id="sticky-bar-call">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      Call
+    </a>
+    <a href="https://www.vagaro.com/loveleehair" target="_blank" rel="noopener noreferrer" class="mobile-bar-btn-book" id="sticky-bar-book">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      Book Now
+    </a>
+  </aside>
+
+  <!-- Lightweight Vanilla JavaScript -->
+  <script>
+    (function () {
+      'use strict';
+
+      // Update Current Year
+      var yearElem = document.getElementById('current-year');
+      if (yearElem) {
+        yearElem.textContent = new Date().getFullYear();
+      }
+
+      // Mobile Menu Handling
+      var menuToggle = document.getElementById('mobile-menu-toggle');
+      var menuClose = document.getElementById('mobile-menu-close');
+      var navOverlay = document.getElementById('mobile-nav-overlay');
+      var mobileLinks = document.querySelectorAll('.mobile-nav-item, #mobile-drawer-btn-book, #mobile-drawer-btn-call');
+
+      function openMenu() {
+        if (!navOverlay || !menuToggle) return;
+        navOverlay.classList.add('active');
+        navOverlay.setAttribute('aria-hidden', 'false');
+        menuToggle.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeMenu() {
+        if (!navOverlay || !menuToggle) return;
+        navOverlay.classList.remove('active');
+        navOverlay.setAttribute('aria-hidden', 'true');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      if (menuToggle) {
+        menuToggle.addEventListener('click', function () {
+          var isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+          if (isExpanded) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        });
+      }
+
+      if (menuClose) {
+        menuClose.addEventListener('click', closeMenu);
+      }
+
+      if (navOverlay) {
+        navOverlay.addEventListener('click', function (e) {
+          if (e.target === navOverlay) {
+            closeMenu();
+          }
+        });
+      }
+
+      // Close on Escape Key
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' || e.keyCode === 27) {
+          closeMenu();
+        }
+      });
+
+      // Close menu on link click
+      mobileLinks.forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      // Intersection Observer for Scroll Reveals
+      if ('IntersectionObserver' in window) {
+        var revealElements = document.querySelectorAll('.reveal-item');
+        var revealObserver = new IntersectionObserver(
+          function (entries, observer) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-revealed');
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          {
+            rootMargin: '0px 0px -40px 0px',
+            threshold: 0.12
+          }
+        );
+
+        revealElements.forEach(function (el) {
+          revealObserver.observe(el);
+        });
+      } else {
+        // Fallback for browsers without IntersectionObserver
+        var allReveals = document.querySelectorAll('.reveal-item');
+        allReveals.forEach(function (el) {
+          el.classList.add('is-revealed');
+        });
+      }
+
+      // Parallax and Timeline Scroll Interaction
+      var progressBar = document.getElementById('experience-progress-bar');
+      var experienceSection = document.getElementById('experience');
+
+      window.addEventListener('scroll', function () {
+        if (progressBar && experienceSection) {
+          var rect = experienceSection.getBoundingClientRect();
+          var windowHeight = window.innerHeight;
+          if (rect.top <= windowHeight && rect.bottom >= 0) {
+            var progress = Math.min(Math.max((windowHeight - rect.top) / (rect.height + windowHeight * 0.5), 0), 1);
+            progressBar.style.transform = 'scaleX(' + progress + ')';
+          }
+        }
+      }, { passive: true });
+
+    })();
+  </script>
+</body>
+</html>
